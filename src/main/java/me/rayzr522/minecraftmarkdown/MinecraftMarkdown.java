@@ -37,9 +37,6 @@ public class MinecraftMarkdown {
         String text = event.getComponent().getFormattedText();
         String formatted = replacer.translate(text);
 
-        System.out.println("Received message.");
-        System.out.println(String.format("Text: %s\nFormatted: %s", text, formatted));
-
         event.setComponent(new TextComponentString(formatted));
     }
 }

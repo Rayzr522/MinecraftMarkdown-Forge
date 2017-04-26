@@ -24,8 +24,6 @@ public class CharReplacer {
         String output = input;
 
         for (Map.Entry<Pattern, Character> entry : replacers.entrySet()) {
-            System.out.println("Applying pattern: " + entry.getKey().pattern());
-
             Matcher matcher = entry.getKey().matcher(output);
             output = matcher.replaceAll("\u00A7" + entry.getValue() + "$1\u00A7r");
         }
