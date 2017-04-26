@@ -22,6 +22,5 @@ eclipse
 run
 *.log
 
+# My build scripts
 build.sh
-
-gradle/wrapper/gradle-wrapper.jar
