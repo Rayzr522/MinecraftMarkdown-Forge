@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "minecraftmarkdown",
+    "name": "MinecraftMarkdown",
+    "description": "(Serverside) Adds Markdown-like formatting for chat.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Rayzr"
+    ],
+    "credits": "Google. LOTS of Google.",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
